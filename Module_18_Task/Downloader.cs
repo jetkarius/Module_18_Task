@@ -58,8 +58,8 @@ namespace Module_18_Task
                 string src = @"T:\source\repos\Module_18_Task\Module_18_Task\bin\Debug\net6.0\title.mp4";
 
                 var newName = video.Title;
-
-                string dest = @"T:\YouTubeVideo\\" + newName + ".mp4";
+                Console.WriteLine("Введите адрес папки для сохранения");
+                string dest = Console.ReadLine() + "\\" + newName + ".mp4";
 
                 
                 try
